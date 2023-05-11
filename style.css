@@ -1,0 +1,26 @@
+h1{
+    font-size: 62px;
+}
+
+pre{
+    font-size: 36px;
+}
+
+
+img{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    animation: translate 1.4s linear infinite;
+}
+
+@keyframes translate {
+    50% {
+        transform: translateY(40px) scale(1.5);  
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+
+}
